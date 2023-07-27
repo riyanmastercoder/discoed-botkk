@@ -9,7 +9,7 @@ openai.api_key = "your openn ai key"
 
 @client.event
 async def on_member_join(member):
-    channel = client.get_channel(1133275719670190193)
+    channel = client.get_channel(your channel) 
     await channel.send(
     "Hi there! Welcome to riyan server. Here are the available commands:\n"
     "!image: will generate an image from your prompt.\n"
