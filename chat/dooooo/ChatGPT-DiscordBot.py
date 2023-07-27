@@ -5,7 +5,7 @@ import requests
 import io
 
 client = discord.Client(intents=discord.Intents.all())
-openai.api_key = "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"
+openai.api_key = "your openn ai key"
 
 @client.event
 async def on_member_join(member):
@@ -126,4 +126,5 @@ def generate_response(prompt, temperature):
         lines.append(current_line)
         return lines
 
-client.run("MTEzMzI3MjgxMjQ0NzA4ODY5Mw.GNel4O.c1_EbfAsqE_9nkMpGyLUe52CMEtrzhTtKMxgho")
+client.run("your discord key
+")
